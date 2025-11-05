@@ -6,8 +6,6 @@ build-backend = "pdm.backend"
 name = "Responder-poisoner"
 description = "LLMNR, NBT-NS and MDNS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2, Extended Security NTLMSSP and Basic HTTP authentication."
 readme = "README.md"
-license = { expression = "GPL-3.0-only" }
-license-files = ["LICENSE"]
 dynamic = ["version"]
 dependencies = ["aioquic", "netifaces>=0.10.4"]
 classifiers = [
